@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2014-03-17T11:10:47.7043875+01:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ADListCS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>08/15/2013 10:59:32</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="AutoCompleteCS.asmx">
+      <publishTime>06/24/2013 14:38:02</publishTime>
+    </File>
+    <File Include="bin/ADListCS.dll">
+      <publishTime>07/11/2016 13:44:11</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>09/30/2009 17:57:54</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/19/2013 12:30:56</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/20/2013 14:23:59</publishTime>
+    </File>
+    <File Include="GetADData.asmx">
+      <publishTime>07/05/2016 16:28:51</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Home-icon.png">
+      <publishTime>07/03/2013 10:10:31</publishTime>
+    </File>
+    <File Include="HomeButton.gif">
+      <publishTime>05/17/2013 13:52:26</publishTime>
+    </File>
+    <File Include="Mail-icon.png">
+      <publishTime>05/14/2013 11:16:25</publishTime>
+    </File>
+    <File Include="noPhoto.png">
+      <publishTime>12/10/2013 09:30:20</publishTime>
+    </File>
+    <File Include="office.aspx">
+      <publishTime>10/15/2015 13:39:39</publishTime>
+    </File>
+    <File Include="office.png">
+      <publishTime>05/16/2013 09:48:47</publishTime>
+    </File>
+    <File Include="phone.png">
+      <publishTime>05/16/2013 09:48:02</publishTime>
+    </File>
+    <File Include="PhoneBook.aspx">
+      <publishTime>10/15/2015 13:37:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>12/02/2013 09:34:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>06/24/2013 11:49:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery.snow.min.1.0.js">
+      <publishTime>12/03/2013 09:09:05</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>02/19/2014 08:39:18</publishTime>
+    </File>
+    <File Include="skypeicon.jpg">
+      <publishTime>04/15/2013 14:35:00</publishTime>
+    </File>
+    <File Include="skypeicon.png">
+      <publishTime>07/19/2013 09:42:47</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>07/08/2013 14:52:56</publishTime>
+    </File>
+    <File Include="TDMSLogo-gray.jpg">
+      <publishTime>02/28/2013 08:48:49</publishTime>
+    </File>
+    <File Include="team.aspx">
+      <publishTime>10/15/2015 13:39:39</publishTime>
+    </File>
+    <File Include="team.png">
+      <publishTime>05/16/2013 09:47:32</publishTime>
+    </File>
+    <File Include="Teams.txt">
+      <publishTime>09/11/2013 11:18:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/06/2014 12:19:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

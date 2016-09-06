@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ADListCS.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 150px;
+            height: 59px;
+        }
+    </style>
+<script type="text/javascript" src="Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.snow.min.1.0.js"></script>
+
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title" style="padding:10px">
+                <h1>
+                   <%-- <img alt="Schneider Electric DMS NS" class="style1" src="TDMSLogo-gray.jpg"  />--%>
+                    <asp:ImageButton ImageUrl= "TDMSLogo-gray.jpg" ID="ImageButton1" runat="server" PostBackUrl="https://web.schneider-electric-dms.com/"/>
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="https://web.schneider-electric-dms.com/ContactsInfoApp/" Text="Contacts"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <asp:Label ID="ErrorLabel" runat="server" Text=""></asp:Label>
+    </div>
+    </form>
+</body>
+</html>
+
+<%--<script type="text/javascript">
+
+    $(document).ready(function () {
+        $.fn.snow({ minSize: 5, maxSize: 50, newOn: 1000, flakeColor: '#EEEEEE' });
+    });
+
+    //minSize - min size of snowflake, 10 by default
+
+    //maxSize - max size of snowflake, 20 by default
+
+    //newOn - frequency in ms of appearing of new snowflake, 500 by default
+
+    //flakeColor - color of snowflake, #FFFFFF by default
+
+
+
+</script>--%>
