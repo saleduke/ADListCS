@@ -21,3 +21,11 @@ C:\Users\aleksandar.vojvodic\Desktop\Prelazak\ADListCS\ADListCS\obj\Debug\Intero
 C:\Users\aleksandar.vojvodic\Desktop\Prelazak\ADListCS\ADListCS\obj\Debug\ADListCS.csproj.ResolveComReference.cache
 C:\Users\aleksandar.vojvodic\Desktop\Prelazak\ADListCS\ADListCS\obj\Debug\ADListCS.dll
 C:\Users\aleksandar.vojvodic\Desktop\Prelazak\ADListCS\ADListCS\obj\Debug\ADListCS.pdb
+D:\GitHub\ADListCS\ADListCS\bin\ADListCS.dll.config
+D:\GitHub\ADListCS\ADListCS\bin\ADListCS.dll
+D:\GitHub\ADListCS\ADListCS\bin\ADListCS.pdb
+D:\GitHub\ADListCS\ADListCS\obj\Debug\ADListCS.csprojResolveAssemblyReference.cache
+D:\GitHub\ADListCS\ADListCS\obj\Debug\Interop.ActiveDs.dll
+D:\GitHub\ADListCS\ADListCS\obj\Debug\ADListCS.csproj.ResolveComReference.cache
+D:\GitHub\ADListCS\ADListCS\obj\Debug\ADListCS.dll
+D:\GitHub\ADListCS\ADListCS\obj\Debug\ADListCS.pdb
